@@ -10,4 +10,9 @@ public class JspController {
     public String jspDefault() {
         return "index";
     }
+
+    @GetMapping("/data")
+    public String jspData() {
+        return "data";
+    }
 }
